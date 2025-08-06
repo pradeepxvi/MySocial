@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.move {
+  animation: moving 1s infinite;
+}
+@keyframes moving {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
